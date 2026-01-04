@@ -1,0 +1,43 @@
+site_name: 沉迷摸鱼的心理世界
+theme:
+  name: material
+  language: zh
+  features:
+  - navigation.tabs
+  - navigation.top
+  - search.suggest
+  - search.highlight
+  - content.code.copy
+  - content.anchor
+  - toc.follow
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: 切换到夜间模式
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: 切换到日间模式
+
+nav:
+  - 首页: index.md
+  - 数学:
+      - 微积分: math/calculus.md
+      - 线性代数: math/linear-algebra.md
+  - 编程:
+      - Python: coding/python.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.emoji
+extra_css:
+  - stylesheets/extra.css
