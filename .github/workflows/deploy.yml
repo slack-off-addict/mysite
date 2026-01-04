@@ -1,3 +1,4 @@
+site_url: https://slack-off-addict.github.io/mysite/
 name: Deploy MkDocs site to GitHub Pages
 
 on:
